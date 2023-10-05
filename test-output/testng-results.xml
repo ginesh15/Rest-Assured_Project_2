@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-12T20:36:52 IST" name="Default suite" finished-at="2023-09-12T20:37:13 IST" duration-ms="21836">
+    <groups>
+    </groups>
+    <test started-at="2023-09-12T20:36:52 IST" name="Default test" finished-at="2023-09-12T20:37:13 IST" duration-ms="21836">
+      <class name="all_Test_Operation.booking_operation">
+        <test-method is-config="true" signature="token_genaration()[pri:0, instance:all_Test_Operation.booking_operation@19058533]" started-at="2023-09-12T20:36:52 IST" name="token_genaration" finished-at="2023-09-12T20:36:56 IST" duration-ms="4423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- token_genaration -->
+        <test-method signature="get_bookingID()[pri:1, instance:all_Test_Operation.booking_operation@19058533]" started-at="2023-09-12T20:36:56 IST" name="get_bookingID" description="Returns the ids of all the bookings" finished-at="2023-09-12T20:37:05 IST" duration-ms="8264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_bookingID -->
+        <test-method signature="post_createBooking()[pri:2, instance:all_Test_Operation.booking_operation@19058533]" started-at="2023-09-12T20:37:05 IST" name="post_createBooking" description="Creates a new booking in the API" finished-at="2023-09-12T20:37:06 IST" duration-ms="1773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_createBooking -->
+        <test-method signature="get_booking()[pri:3, instance:all_Test_Operation.booking_operation@19058533]" started-at="2023-09-12T20:37:06 IST" name="get_booking" description="Get a new booking in the API" finished-at="2023-09-12T20:37:08 IST" duration-ms="1762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_booking -->
+        <test-method signature="put_updateBooking()[pri:4, instance:all_Test_Operation.booking_operation@19058533]" started-at="2023-09-12T20:37:08 IST" name="put_updateBooking" description="Updates a current booking in the API" finished-at="2023-09-12T20:37:10 IST" duration-ms="1838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- put_updateBooking -->
+        <test-method signature="patch_partial_updateBooking()[pri:5, instance:all_Test_Operation.booking_operation@19058533]" started-at="2023-09-12T20:37:10 IST" name="patch_partial_updateBooking" description="Partial Update the current booking in the API" finished-at="2023-09-12T20:37:12 IST" duration-ms="1785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patch_partial_updateBooking -->
+        <test-method signature="delete_booking()[pri:6, instance:all_Test_Operation.booking_operation@19058533]" started-at="2023-09-12T20:37:12 IST" name="delete_booking" description="Delete the current booking in the ApI" finished-at="2023-09-12T20:37:13 IST" duration-ms="1794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_booking -->
+      </class> <!-- all_Test_Operation.booking_operation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
